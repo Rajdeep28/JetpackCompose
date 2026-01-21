@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             LearningJetpackComposeTheme {
-                Greet()
+                Greet(name = "Rajdeep")
             }
         }
     }
