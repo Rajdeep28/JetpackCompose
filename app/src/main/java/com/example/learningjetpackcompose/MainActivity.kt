@@ -20,7 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             LearningJetpackComposeTheme {
                 /*Greet(name = "Rajdeep")*/
-                CounterExample()
+                //CounterExample()
+                ToggleExample()
             }
         }
     }
